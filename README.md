@@ -1,5 +1,17 @@
 # service_monitor
 一个完整的跨平台 PyQt6 应用，用于图形化管理 llama-server 类后台服务，支持多页签、启动清单、实时日志监控，并可在 Windows 和 Debian 上运行。
+ 
+ 安装依赖
+bash
+
+pip install PyQt6
+
+Debian 还需要：
+bash
+
+sudo apt install python3-pyqt6
+
+
 🚀 使用方法
 Debian 上运行
 bash
@@ -9,6 +21,7 @@ sudo apt install python3-pyqt6
 
 # 2. 运行
 python service_monitor.py
+
 
 sudo 免密提示：为了在 GUI 中调用 sudo systemctl 和 sudo journalctl，建议为当前用户配置 systemctl 和 journalctl 的免密：
 bash
