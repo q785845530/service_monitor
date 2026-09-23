@@ -94,3 +94,10 @@ pyinstaller --onefile --windowed --name ServiceMonitor service_monitor.py
     告警：当服务状态从 active 变为 inactive 时弹出通知。
 
     打包：用 PyInstaller 生成单文件，配合图标和版本信息。
+
+
+    📦 常见用法
+
+    ‌安装依赖‌：在项目目录下执行 pip install -r requirements.txt。
+    ‌生成依赖清单‌：pip freeze > requirements.txt，把当前环境里所有包和精确版本导出到这个文件。
+    ‌指定镜像源‌：下载慢或失败时，可以加 -i 参数换源，比如用清华源 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
