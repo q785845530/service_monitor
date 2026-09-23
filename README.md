@@ -55,6 +55,7 @@ python service_monitor.py
 启动/停止/重启	页签顶部按钮直接操作服务
 保存日志	可将当前日志导出为文件
 状态自动刷新	每 5 秒刷新一次服务状态指示
+
 📦 打包为可执行文件
 Debian (Linux)
 bash
